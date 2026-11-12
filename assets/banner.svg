@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="IZESF77 — backend, systems, native">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0C0F"/>
+      <stop offset="0.55" stop-color="#0E1114"/>
+      <stop offset="1" stop-color="#08090B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.16" cy="0.05" r="0.95">
+      <stop offset="0" stop-color="#1B222A" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0B0C0F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C6A667" stop-opacity="0"/>
+      <stop offset="0.1" stop-color="#C6A667" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#C6A667" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#C6A667" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity="0.022" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+  <rect width="1200" height="1" fill="#C6A667" opacity="0.22"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="64" y="94" fill="#7D8B99" font-size="13" letter-spacing="6">BACKEND · SYSTEMS · NATIVE</text>
+    <text x="1136" y="94" fill="#4A5158" font-size="12" letter-spacing="4" text-anchor="end">PROFILE / 2026</text>
+
+    <text x="64" y="170" fill="#EDEAE4" font-size="62" font-weight="600" letter-spacing="10">IZESF77</text>
+    <rect x="402" y="126" width="12" height="46" fill="#C6A667">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1.2s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="64" y="208" fill="#9AA4AE" font-size="15" letter-spacing="2">Type-safe by default. Native where it matters. Shipped, not announced.</text>
+  </g>
+
+  <rect x="64" y="238" width="1072" height="1" fill="url(#rule)"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3">
+    <text x="64" y="268" fill="#6E7681">TYPESCRIPT · PYTHON · SWIFT</text>
+    <text x="1136" y="268" fill="#6E7681" text-anchor="end">github.com/izesf77-ship-it</text>
+  </g>
+</svg>
