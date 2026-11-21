@@ -1,84 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="IZESF77 — indie software developer building NOVA, VOLNA and LUNÉ">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="IZESF77 — independent product builder">
   <defs>
-    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#090A12"/>
-      <stop offset=".5" stop-color="#111328"/>
-      <stop offset="1" stop-color="#080B12"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F7F5EF"/>
+      <stop offset="1" stop-color="#EEECE5"/>
     </linearGradient>
-    <linearGradient id="electric" x1="0" y1="0" x2="1" y2=".4">
-      <stop stop-color="#8A5CFF"/><stop offset=".48" stop-color="#42E5FF"/><stop offset="1" stop-color="#B6FF8A"/>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2=".3">
+      <stop stop-color="#F26445"/>
+      <stop offset=".55" stop-color="#D64269"/>
+      <stop offset="1" stop-color="#7049A8"/>
     </linearGradient>
-    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#42E5FF" stop-opacity="0"/><stop offset=".5" stop-color="#42E5FF" stop-opacity=".75"/><stop offset="1" stop-color="#42E5FF" stop-opacity="0"/>
+    <linearGradient id="wash">
+      <stop stop-color="#F26445" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#7049A8" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="core">
-      <stop stop-color="#42E5FF" stop-opacity=".34"/><stop offset=".48" stop-color="#6551FF" stop-opacity=".17"/><stop offset="1" stop-color="#6551FF" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="bloom" x="-150%" y="-150%" width="400%" height="400%">
-      <feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="mesh" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#AEB8FF" stroke-opacity=".045"/>
-      <circle cx="0" cy="0" r="1" fill="#AEB8FF" fill-opacity=".2"/>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".45" fill="#282520" fill-opacity=".09"/>
     </pattern>
-    <clipPath id="frame"><rect width="1200" height="390" rx="20"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="360" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1200" height="390" fill="url(#night)"/>
-    <rect width="1200" height="390" fill="url(#mesh)"/>
-    <ellipse cx="945" cy="187" rx="390" ry="280" fill="url(#core)">
-      <animate attributeName="opacity" values=".72;1;.72" dur="5s" repeatCount="indefinite"/>
-    </ellipse>
-    <path d="M600 342C740 286 765 247 844 236S963 218 1200 95" fill="none" stroke="#4BE6FF" stroke-opacity=".13"/>
-    <path d="M596 357C734 312 791 275 864 262S1028 204 1200 142" fill="none" stroke="#9577FF" stroke-opacity=".18"/>
-    <path d="M595 342C740 286 765 247 844 236S963 218 1200 95" fill="none" stroke="url(#electric)" stroke-width="2" stroke-dasharray="12 18" filter="url(#bloom)" opacity=".85">
-      <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="5s" repeatCount="indefinite"/>
+    <rect width="1200" height="360" fill="url(#paper)"/>
+    <rect width="1200" height="360" fill="url(#grain)" opacity=".3"/>
+    <path d="M600 0V360" stroke="#282520" stroke-opacity=".12"/>
+    <text x="64" y="47" fill="#26241F" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">IZESF77</text>
+    <circle cx="151" cy="42" r="3" fill="#E85B42"/>
+    <text x="170" y="47" fill="#77736B" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2.4">INDEPENDENT PRODUCT BUILDER</text>
+    <text x="1135" y="47" fill="#77736B" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2" text-anchor="end">EST. IN CODE  /  2026</text>
+    <path d="M64 68H1136" stroke="#26241F" stroke-opacity=".18"/>
+    <text x="64" y="149" fill="#26241F" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">MAKE IDEAS</text>
+    <text x="64" y="219" fill="#E85B42" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-3">REAL.</text>
+    <text x="68" y="260" fill="#625F58" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing=".3">Software, interfaces, things worth shipping.</text>
+    <g font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">
+      <rect x="68" y="292" width="82" height="30" rx="15" fill="none" stroke="#C5C1B7"/>
+      <text x="109" y="311" fill="#37342F" text-anchor="middle">NOVA</text>
+      <rect x="160" y="292" width="82" height="30" rx="15" fill="#E85B42"/>
+      <text x="201" y="311" fill="#FFF9EF" text-anchor="middle">VOLNA</text>
+      <rect x="252" y="292" width="82" height="30" rx="15" fill="none" stroke="#C5C1B7"/>
+      <text x="293" y="311" fill="#37342F" text-anchor="middle">LUNÉ</text>
+    </g>
+    <text x="1135" y="337" fill="#77736B" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2" text-anchor="end">DESIGN  ·  BUILD  ·  SHIP</text>
+    <ellipse cx="900" cy="190" rx="270" ry="160" fill="url(#wash)"/>
+    <g fill="none" stroke="url(#wave)" stroke-linecap="round">
+      <path d="M590 188C670 188 680 97 758 97S850 278 928 278 1011 120 1081 120 1120 190 1205 190" stroke-width="2" opacity=".36"/>
+      <path d="M590 188C671 188 684 117 758 117S850 258 928 258 1010 140 1081 140 1120 188 1205 188" stroke-width="2" opacity=".5"/>
+      <path d="M590 188C672 188 687 137 758 137S850 238 928 238 1010 160 1081 160 1120 186 1205 186" stroke-width="2.5" opacity=".68"/>
+      <path d="M590 188C674 188 690 157 758 157S850 218 928 218 1008 180 1081 180 1120 184 1205 184" stroke-width="3"/>
+      <path d="M590 188C672 188 687 207 758 207S850 138 928 138 1010 238 1081 238 1120 186 1205 186" stroke-width="2.5" opacity=".68"/>
+      <path d="M590 188C671 188 684 227 758 227S850 118 928 118 1010 258 1081 258 1120 188 1205 188" stroke-width="2" opacity=".5"/>
+      <path d="M590 188C670 188 680 247 758 247S850 98 928 98 1011 278 1081 278 1120 190 1205 190" stroke-width="2" opacity=".36"/>
+    </g>
+    <path d="M610 188C690 188 690 157 758 157S850 218 928 218 1008 180 1081 180 1120 184 1205 184" fill="none" stroke="#E85B42" stroke-width="1" stroke-dasharray="3 12" opacity=".85">
+      <animate attributeName="stroke-dashoffset" from="0" to="-60" dur="4s" repeatCount="indefinite"/>
     </path>
-    <g transform="translate(950 178)">
-      <circle r="158" fill="url(#core)"/>
-      <circle r="101" fill="none" stroke="#8A76FF" stroke-opacity=".24" stroke-dasharray="2 8">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="36s" repeatCount="indefinite"/>
-      </circle>
-      <ellipse rx="192" ry="67" fill="none" stroke="#8C7BFF" stroke-opacity=".34" transform="rotate(-24)"/>
-      <ellipse rx="192" ry="67" fill="none" stroke="#43E6FF" stroke-opacity=".27" transform="rotate(25)"/>
-      <ellipse rx="142" ry="51" fill="none" stroke="#C0FF8D" stroke-opacity=".25" transform="rotate(62)"/>
-      <ellipse rx="142" ry="51" fill="none" stroke="#6B5DFF" stroke-opacity=".2" transform="rotate(-63)"/>
-      <circle r="46" fill="#11152D" stroke="url(#electric)" stroke-width="1.5" filter="url(#bloom)"/>
-      <path d="M-23 3L-7-15L8 1L25-14M-18 17H18" fill="none" stroke="#E7F6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
-      <circle r="5" fill="#43E6FF" filter="url(#bloom)">
-        <animate attributeName="r" values="4;7;4" dur="2.3s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="4" fill="#B6FF8A">
-        <animateMotion dur="9s" repeatCount="indefinite" path="M192 0 A192 67 -24 1 1 -192 0 A192 67 -24 1 1 192 0"/>
-      </circle>
-      <circle r="4" fill="#8A5CFF">
-        <animateMotion dur="12s" repeatCount="indefinite" path="M0 -67 A192 67 25 1 1 0 67 A192 67 25 1 1 0 -67"/>
-      </circle>
-      <circle r="3.5" fill="#43E6FF">
-        <animateMotion dur="10s" repeatCount="indefinite" path="M142 0 A142 51 62 1 1 -142 0 A142 51 62 1 1 142 0"/>
-      </circle>
-    </g>
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-      <text x="66" y="62" fill="#9AA7C7" font-size="11" letter-spacing="4">INDEPENDENT DEVELOPER <tspan fill="#42E5FF">/</tspan> PRODUCT BUILDER</text>
-      <circle cx="67" cy="112" r="4" fill="#B6FF8A" filter="url(#bloom)"/>
-      <text x="84" y="117" fill="#AEBBD8" font-size="11" letter-spacing="3">ONLINE · IDEAS TO PRODUCTS</text>
-      <text x="64" y="203" fill="#F5F6FF" font-size="72" font-weight="700" letter-spacing="2">IZESF77</text>
-      <text x="68" y="246" fill="#C0C8E1" font-size="17" letter-spacing="1">BUILDING WHAT I WISH EXISTED.</text>
-      <text x="68" y="302" fill="#7582A3" font-size="11" letter-spacing="3">CURRENT MISSIONS</text>
-      <g font-size="12" font-weight="600" letter-spacing="1">
-        <rect x="68" y="319" width="90" height="34" rx="17" fill="#17172B" stroke="#8A5CFF" stroke-opacity=".65"/>
-        <text x="113" y="341" fill="#C7B9FF" text-anchor="middle">NOVA</text>
-        <rect x="169" y="319" width="90" height="34" rx="17" fill="#10202B" stroke="#42E5FF" stroke-opacity=".65"/>
-        <text x="214" y="341" fill="#A9F3FF" text-anchor="middle">VOLNA</text>
-        <rect x="270" y="319" width="90" height="34" rx="17" fill="#18231C" stroke="#B6FF8A" stroke-opacity=".58"/>
-        <text x="315" y="341" fill="#D2FFB6" text-anchor="middle">LUNÉ</text>
-      </g>
-      <text x="1132" y="356" fill="#7582A3" font-size="10" letter-spacing="3" text-anchor="end">DESIGN <tspan fill="#42E5FF">·</tspan> CODE <tspan fill="#42E5FF">·</tspan> SHIP</text>
-    </g>
-    <rect x="-260" y="0" width="210" height="390" fill="url(#beam)" opacity=".35" transform="skewX(-18)">
-      <animate attributeName="x" from="-300" to="1450" dur="8s" repeatCount="indefinite"/>
-    </rect>
-    <path d="M65 378H1135" stroke="url(#electric)" stroke-opacity=".4"/>
-    <rect x="0" y="0" width="1200" height="1" fill="url(#electric)"/>
+    <circle r="5" fill="#E85B42">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M610 188C690 188 690 157 758 157S850 218 928 218 1008 180 1081 180 1120 184 1205 184"/>
+    </circle>
+    <circle cx="930" cy="188" r="4" fill="#7049A8">
+      <animate attributeName="r" values="3;7;3" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M602 82V294" stroke="#E85B42" stroke-width="2"/>
+    <text x="620" y="93" fill="#77736B" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2">THREE IDEAS IN MOTION</text>
+    <text x="620" y="309" fill="#77736B" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2">LANGUAGE  /  MUSIC  /  WELLNESS</text>
+    <path d="M64 342H1136" stroke="#26241F" stroke-opacity=".18"/>
+    <rect x="0" y="0" width="1200" height="3" fill="#E85B42"/>
   </g>
 </svg>
