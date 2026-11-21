@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="assets/banner.svg" width="100%" alt="Animated Kirill Boldygin profile banner" />
+  <img src="assets/banner.svg" width="100%" alt="Animated IZESF77 profile banner" />
 </div>
 
 <p align="center">
   <b>Indie Software Developer &amp; Entrepreneur</b><br/>
-  Building digital products, native iOS apps, and tools that turn ideas into reality.
+  iOS apps · programming languages · digital products
 </p>
 
 <p align="center">
@@ -14,72 +14,55 @@
 </p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/BUILDING-NOVA-111827?style=for-the-badge&logo=github&logoColor=8B7CFF" alt="Building NOVA" />
-  <img src="https://img.shields.io/badge/CRAFTING-VOLNA-111827?style=for-the-badge&logo=apple&logoColor=62D9FF" alt="Crafting VOLNA" />
-  <img src="https://img.shields.io/badge/DESIGNING-LUNÉ-111827?style=for-the-badge&logo=swift&logoColor=A6FFCB" alt="Designing LUNÉ" />
+  <img src="https://img.shields.io/badge/01%20%E2%80%94%20LANGUAGE%20DESIGN-NOVA-17152B?style=for-the-badge&logo=github&logoColor=B6A3FF" alt="NOVA: language design" />
+  <img src="https://img.shields.io/badge/02%20%E2%80%94%20NATIVE%20MUSIC-VOLNA-10202B?style=for-the-badge&logo=apple&logoColor=73E9FF" alt="VOLNA: native music app" />
+  <img src="https://img.shields.io/badge/03%20%E2%80%94%20OFFLINE%20HEALTH-LUN%C3%89-18231C?style=for-the-badge&logo=swift&logoColor=B6FF8A" alt="LUNÉ: offline health app" />
 </div>
 
 <br/>
 
----
-
-## 01 · ABOUT
-
-I’m Kirill, an independent developer and entrepreneur. I like taking a product from the first rough idea through architecture, interface, code, and release.
-
-My current work spans native iOS development, programming language design, and digital products. I care about clear interfaces, thoughtful details, and software people can actually use.
-
-> Imagine boldly. Build carefully. Ship the thing.
+> **The idea is only the start.** I take products from a rough sketch through interface, architecture, code, and release.
 
 ---
 
-## 02 · CURRENT PROJECTS
+### ✦ WHAT I'M BUILDING
 
-| PROJECT | WHAT IT IS | STATUS |
+| PROJECT | THE IDEA | STACK |
 |:--|:--|:--|
-| **[NOVA](https://github.com/izesf77-ship-it/NOVAORIG)** | A programming language project exploring its own syntax, type system, compiler, and developer tooling. | In development |
-| **[VOLNA](https://github.com/izesf77-ship-it/VOLNA)** | A Russian-language iOS music app with radio, playback, lyrics, and a multi-source catalog. | In development |
-| **[LUNÉ](https://github.com/izesf77-ship-it/LUNE)** | An offline-first iOS cycle and wellness tracker, designed around privacy and local data. | In development |
-| **[visualgram](https://github.com/izesf77-ship-it/visualgram)** | A visual product built around native interface design and motion. | Exploring |
-| **[Telegram tools](https://github.com/izesf77-ship-it/tg)** | Bots, integrations, and small tools for Telegram. | Ongoing |
+| **[NOVA](https://github.com/izesf77-ship-it/NOVAORIG)** | A programming language with its own syntax, type system, compiler, and tooling. | `TypeScript` · `LLVM` |
+| **[VOLNA](https://github.com/izesf77-ship-it/VOLNA)** | A Russian-language music app with radio, lyrics, and a multi-source catalog. | `Swift` · `SwiftUI` |
+| **[LUNÉ](https://github.com/izesf77-ship-it/LUNE)** | An offline-first cycle and wellness tracker, built around privacy and local data. | `Swift` · `SwiftUI` |
+| **[visualgram](https://github.com/izesf77-ship-it/visualgram)** | A visual product shaped around native interfaces and motion. | `Swift` |
+| **[Telegram tools](https://github.com/izesf77-ship-it/tg)** | Bots, integrations, and useful automations. | `Python` |
 
 ---
 
-## 03 · TOOLBOX
+### ✦ TOOLS I REACH FOR
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Swift-111827?style=for-the-badge&logo=swift&logoColor=F28B54" alt="Swift" />
-  <img src="https://img.shields.io/badge/SwiftUI-111827?style=for-the-badge&logo=apple&logoColor=62D9FF" alt="SwiftUI" />
-  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=62D9FF" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=A6FFCB" alt="Python" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-111827?style=for-the-badge&logo=githubactions&logoColor=8B7CFF" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Swift-171923?style=flat-square&logo=swift&logoColor=F28B54" alt="Swift" />
+  <img src="https://img.shields.io/badge/SwiftUI-171923?style=flat-square&logo=apple&logoColor=73E9FF" alt="SwiftUI" />
+  <img src="https://img.shields.io/badge/TypeScript-171923?style=flat-square&logo=typescript&logoColor=73E9FF" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-171923?style=flat-square&logo=python&logoColor=B6FF8A" alt="Python" />
+  <img src="https://img.shields.io/badge/LLVM-171923?style=flat-square&logo=llvm&logoColor=B6A3FF" alt="LLVM" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-171923?style=flat-square&logo=githubactions&logoColor=B6A3FF" alt="GitHub Actions" />
+</div>
+
+### ✦ LIVE SIGNAL
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=izesf77-ship-it&show_icons=true&include_all_commits=true&count_private=true&hide=issues&hide_border=true&border_radius=14&bg_color=0B0D18&title_color=B6A3FF&text_color=C0C8E1&icon_color=73E9FF&ring_color=8A5CFF&rank_icon=percentile&custom_title=BUILDER%20ACTIVITY&card_width=430" alt="GitHub activity" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=izesf77-ship-it&layout=compact&langs_count=6&hide=html,css,scss,shell&hide_border=true&border_radius=14&bg_color=0B0D18&title_color=B6A3FF&text_color=C0C8E1&card_width=390&custom_title=LANGUAGE%20MIX" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img height="170" src="https://streak-stats.demolab.com?user=izesf77-ship-it&hide_border=true&border_radius=14&background=0B0D18&stroke=252A40&ring=8A5CFF&fire=73E9FF&currStreakNum=F4F6FF&currStreakLabel=B6A3FF&sideNums=F4F6FF&sideLabels=8995B2&dates=68738F" alt="Contribution streak" />
 </div>
 
 ---
 
-## 04 · GITHUB ACTIVITY
-
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=izesf77-ship-it&show_icons=true&include_all_commits=true&count_private=true&hide=issues&hide_border=true&border_radius=12&bg_color=0B0D18&title_color=9B8BFF&text_color=B8C3DC&icon_color=62D9FF&ring_color=8B7CFF&rank_icon=percentile&custom_title=BUILDING%20IN%20PUBLIC&card_width=420" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=izesf77-ship-it&layout=compact&langs_count=6&hide=html,css,scss,shell&hide_border=true&border_radius=12&bg_color=0B0D18&title_color=9B8BFF&text_color=B8C3DC&card_width=420&custom_title=LANGUAGE%20MIX" alt="Most used languages" />
-</div>
-
-<div align="center">
-  <img height="180" src="https://streak-stats.demolab.com?user=izesf77-ship-it&hide_border=true&border_radius=12&background=0B0D18&stroke=252A40&ring=8B7CFF&fire=62D9FF&currStreakNum=F4F6FF&currStreakLabel=9B8BFF&sideNums=F4F6FF&sideLabels=8995B2&dates=68738F" alt="GitHub contribution streak" />
-</div>
-
----
-
-## 05 · EXPLORE
-
-<div align="center">
-  <a href="https://github.com/izesf77-ship-it?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_MY_WORK-111827?style=for-the-badge&logo=github&logoColor=F4F6FF" alt="Explore my repositories" /></a>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="assets/rule.svg" width="100%" alt="" />
+  <a href="https://github.com/izesf77-ship-it?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_THE_WORK-171923?style=for-the-badge&logo=github&logoColor=F4F6FF" alt="Explore repositories" /></a>
   <br/><br/>
-  <sub>IDEAS IN MOTION. PRODUCTS IN THE WORLD.</sub>
+  <sub>IDEAS IN MOTION · PRODUCTS IN THE WORLD</sub>
 </div>
