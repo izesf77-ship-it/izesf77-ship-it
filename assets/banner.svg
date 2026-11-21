@@ -1,46 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="IZESF77 — backend, systems, native">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="IZESF77 — independent software developer building NOVA, VOLNA and LUNÉ">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B0C0F"/>
-      <stop offset="0.55" stop-color="#0E1114"/>
-      <stop offset="1" stop-color="#08090B"/>
+      <stop offset="0" stop-color="#080B14"/>
+      <stop offset=".52" stop-color="#111126"/>
+      <stop offset="1" stop-color="#080B14"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.16" cy="0.05" r="0.95">
-      <stop offset="0" stop-color="#1B222A" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#0B0C0F" stop-opacity="0"/>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2=".2">
+      <stop offset="0" stop-color="#7C5CFF"/>
+      <stop offset=".48" stop-color="#46D9FF"/>
+      <stop offset="1" stop-color="#A6FFCB"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#46D9FF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#46D9FF" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#46D9FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop stop-color="#684BFF" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#684BFF" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C6A667" stop-opacity="0"/>
-      <stop offset="0.1" stop-color="#C6A667" stop-opacity="0.9"/>
-      <stop offset="0.7" stop-color="#C6A667" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#C6A667" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity="0.022" stroke-width="1"/>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#B9C6FF" stroke-opacity=".045"/>
+      <circle cx="0" cy="0" r="1" fill="#B9C6FF" fill-opacity=".18"/>
     </pattern>
+    <clipPath id="clip"><rect width="1200" height="360" rx="18"/></clipPath>
   </defs>
-
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect width="1200" height="300" fill="url(#grid)"/>
-  <rect width="1200" height="300" fill="url(#glow)"/>
-  <rect width="1200" height="1" fill="#C6A667" opacity="0.22"/>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="64" y="94" fill="#7D8B99" font-size="13" letter-spacing="6">BACKEND · SYSTEMS · NATIVE</text>
-    <text x="1136" y="94" fill="#4A5158" font-size="12" letter-spacing="4" text-anchor="end">PROFILE / 2026</text>
-
-    <text x="64" y="170" fill="#EDEAE4" font-size="62" font-weight="600" letter-spacing="10">IZESF77</text>
-    <rect x="402" y="126" width="12" height="46" fill="#C6A667">
-      <animate attributeName="opacity" values="1;1;0;0" dur="1.2s" calcMode="discrete" repeatCount="indefinite"/>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <ellipse cx="900" cy="170" rx="390" ry="280" fill="url(#aura)"/>
+    <path d="M730 335C850 180 950 140 1210 80" fill="none" stroke="#46D9FF" stroke-opacity=".10"/>
+    <path d="M705 350C840 165 990 125 1210 30" fill="none" stroke="#8E70FF" stroke-opacity=".13"/>
+    <g transform="translate(955 177)" fill="none">
+      <ellipse rx="205" ry="74" stroke="#8B78FF" stroke-opacity=".35" transform="rotate(-24)"/>
+      <ellipse rx="205" ry="74" stroke="#46D9FF" stroke-opacity=".22" transform="rotate(28)"/>
+      <ellipse rx="148" ry="148" stroke="#8B78FF" stroke-opacity=".16"/>
+      <circle r="87" stroke="url(#neon)" stroke-opacity=".22" stroke-dasharray="3 9">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="7" fill="#46D9FF" filter="url(#glow)">
+        <animate attributeName="r" values="6;9;6" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="4" fill="#A6FFCB">
+        <animateMotion dur="8s" repeatCount="indefinite" path="M205 0 A205 74 -24 1 1 -205 0 A205 74 -24 1 1 205 0"/>
+      </circle>
+      <circle r="4" fill="#7C5CFF">
+        <animateMotion dur="11s" repeatCount="indefinite" path="M0 -74 A205 74 28 1 1 0 74 A205 74 28 1 1 0 -74"/>
+      </circle>
+    </g>
+    <g fill="#DCE8FF">
+      <circle cx="778" cy="92" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="1068" cy="76" r="1.5"><animate attributeName="opacity" values="1;.2;1" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="1127" cy="249" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="841" cy="278" r="1.5"><animate attributeName="opacity" values="1;.2;1" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="734" cy="197" r="1"><animate attributeName="opacity" values=".1;.8;.1" dur="2.9s" repeatCount="indefinite"/></circle>
+    </g>
+    <rect x="-260" y="0" width="220" height="360" fill="url(#beam)" opacity=".38" transform="skewX(-18)">
+      <animate attributeName="x" from="-280" to="1450" dur="7s" repeatCount="indefinite"/>
     </rect>
-
-    <text x="64" y="208" fill="#9AA4AE" font-size="15" letter-spacing="2">Type-safe by default. Native where it matters. Shipped, not announced.</text>
-  </g>
-
-  <rect x="64" y="238" width="1072" height="1" fill="url(#rule)"/>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3">
-    <text x="64" y="268" fill="#6E7681">TYPESCRIPT · PYTHON · SWIFT</text>
-    <text x="1136" y="268" fill="#6E7681" text-anchor="end">github.com/izesf77-ship-it</text>
+    <rect x="0" y="0" width="1200" height="1" fill="url(#neon)" opacity=".75"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="68" y="72" fill="#A5B3D0" font-size="12" letter-spacing="5">INDEPENDENT DEVELOPER <tspan fill="#46D9FF">/</tspan> BUILDING IN PUBLIC</text>
+      <text x="68" y="171" fill="#F4F6FF" font-size="76" font-weight="700" letter-spacing="1">KIRILL</text>
+      <text x="68" y="235" fill="#F4F6FF" font-size="54" font-weight="600" letter-spacing="5">BOLDYGIN</text>
+      <rect x="425" y="113" width="3" height="67" rx="1.5" fill="#46D9FF" filter="url(#glow)">
+        <animate attributeName="opacity" values="1;1;0;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/>
+      </rect>
+      <text x="70" y="276" fill="#A9B4CE" font-size="15" letter-spacing="1">Turning ambitious ideas into real products.</text>
+      <text x="70" y="321" fill="#74819F" font-size="11" letter-spacing="3">NOVA <tspan fill="#46D9FF">·</tspan> VOLNA <tspan fill="#46D9FF">·</tspan> LUNÉ</text>
+      <text x="1130" y="321" fill="#74819F" font-size="11" letter-spacing="2" text-anchor="end">DESIGN <tspan fill="#46D9FF">/</tspan> CODE <tspan fill="#46D9FF">/</tspan> SHIP</text>
+    </g>
+    <path d="M68 298H1132" stroke="#AAB9FF" stroke-opacity=".12"/>
   </g>
 </svg>
