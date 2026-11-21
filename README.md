@@ -70,12 +70,10 @@ My current work spans native iOS development, programming language design, and d
 
 ---
 
-## 05 · FIND ME
+## 05 · EXPLORE
 
 <div align="center">
   <a href="https://github.com/izesf77-ship-it?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_MY_WORK-111827?style=for-the-badge&logo=github&logoColor=F4F6FF" alt="Explore my repositories" /></a>
-  &nbsp;
-  <a href="https://t.me/izesf77"><img src="https://img.shields.io/badge/TELEGRAM-111827?style=for-the-badge&logo=telegram&logoColor=62D9FF" alt="Telegram" /></a>
 </div>
 
 <br/>
