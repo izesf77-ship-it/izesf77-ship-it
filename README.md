@@ -1,92 +1,87 @@
 <div align="center">
-  <img src="assets/banner.svg" width="100%" alt="IZESF77 — backend · systems · native" />
+  <img src="assets/banner.svg" width="100%" alt="Animated Kirill Boldygin profile banner" />
 </div>
 
 <p align="center">
-  <b>Backend that holds under load. Native interfaces that belong to the platform.<br/>
-  And a language of my own — because I'd rather understand the machine than guess it.</b>
+  <b>Indie Software Developer &amp; Entrepreneur</b><br/>
+  Building digital products, native iOS apps, and tools that turn ideas into reality.
 </p>
 
 <p align="center">
-  <sub>T Y P E S C R I P T &nbsp;·&nbsp; P Y T H O N &nbsp;·&nbsp; S W I F T</sub>
+  <a href="https://github.com/izesf77-ship-it/NOVAORIG">NOVA</a> &nbsp;✦&nbsp;
+  <a href="https://github.com/izesf77-ship-it/VOLNA">VOLNA</a> &nbsp;✦&nbsp;
+  <a href="https://github.com/izesf77-ship-it/LUNE">LUNÉ</a>
 </p>
 
----
-
-## 01 · PROFILE
-
-```text
-ROLE       Backend & systems engineer · native application developer
-LANGUAGES  TypeScript · Python · Swift
-FOCUS      Type-safe architecture · server-side systems · language design
-BUILDING   NOVAORIG — a modern type-safe programming language
-METHOD     Small surface area. Hard boundaries. Shipped results.
-```
-
-I work where correctness is cheap to keep and expensive to retrofit: contracts between services, type boundaries, data flow — and the last mile where a person actually touches the product. Backend is the foundation. Native Swift is how the surface stops feeling like a compromise.
-
-> Types are documentation that cannot lie.  
-> Boundaries before features.  
-> Native where it matters, boring where it doesn't.
-
----
-
-## 02 · STACK
-
-| | |
-|:--|:--|
-| `LANGUAGES` | ![TypeScript](https://img.shields.io/badge/TypeScript-111316?style=flat-square&logo=typescript&logoColor=C6A667) ![Python](https://img.shields.io/badge/Python-111316?style=flat-square&logo=python&logoColor=C6A667) ![Swift](https://img.shields.io/badge/Swift-111316?style=flat-square&logo=swift&logoColor=C6A667) |
-| `BACKEND` | ![Node.js](https://img.shields.io/badge/Node.js-111316?style=flat-square&logo=nodedotjs&logoColor=C6A667) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111316?style=flat-square&logo=postgresql&logoColor=C6A667) ![Redis](https://img.shields.io/badge/Redis-111316?style=flat-square&logo=redis&logoColor=C6A667) ![Docker](https://img.shields.io/badge/Docker-111316?style=flat-square&logo=docker&logoColor=C6A667) |
-| `NATIVE` | ![SwiftUI](https://img.shields.io/badge/SwiftUI-111316?style=flat-square&logo=swift&logoColor=C6A667) ![UIKit](https://img.shields.io/badge/UIKit-111316?style=flat-square&logo=apple&logoColor=C6A667) ![Xcode](https://img.shields.io/badge/Xcode-111316?style=flat-square&logo=xcode&logoColor=C6A667) |
-| `TOOLING` | ![Git](https://img.shields.io/badge/Git-111316?style=flat-square&logo=git&logoColor=C6A667) ![Linux](https://img.shields.io/badge/Linux-111316?style=flat-square&logo=linux&logoColor=C6A667) ![Neovim](https://img.shields.io/badge/Neovim-111316?style=flat-square&logo=neovim&logoColor=C6A667) ![Actions](https://img.shields.io/badge/Actions-111316?style=flat-square&logo=githubactions&logoColor=C6A667) |
-
----
-
-## 03 · SELECTED WORK
-
-<a href="https://github.com/izesf77-ship-it/NOVAORIG"><img src="https://img.shields.io/badge/NOW_BUILDING-NOVAORIG-C6A667?style=flat-square&labelColor=0A0B0D" alt="Now building: NOVAORIG" /></a>
-
-**[NOVAORIG](https://github.com/izesf77-ship-it/NOVAORIG)** — a modern, type-safe programming language, written in TypeScript.  
-Syntax and semantics designed together: the type system is the product, not an afterthought. Front-end, type checking and tooling built from scratch — no shortcuts borrowed from someone else's grammar.
-
-`language design` · `type system` · `compiler` · `developer tooling`
+<div align="center">
+  <img src="https://img.shields.io/badge/BUILDING-NOVA-111827?style=for-the-badge&logo=github&logoColor=8B7CFF" alt="Building NOVA" />
+  <img src="https://img.shields.io/badge/CRAFTING-VOLNA-111827?style=for-the-badge&logo=apple&logoColor=62D9FF" alt="Crafting VOLNA" />
+  <img src="https://img.shields.io/badge/DESIGNING-LUNÉ-111827?style=for-the-badge&logo=swift&logoColor=A6FFCB" alt="Designing LUNÉ" />
+</div>
 
 <br/>
 
-| # | PROJECT | SCOPE | STACK |
-|:--|:--|:--|:--|
-| `02` | **[VOLNA](https://github.com/izesf77-ship-it/VOLNA)** | Native application. Platform-first UX, real performance, no web wrapper in the middle. | `Swift` |
-| `03` | **[visualgram](https://github.com/izesf77-ship-it/visualgram)** | Visual system built natively — structure, composition and motion handled in code. | `Swift` |
-| `04` | **[tg](https://github.com/izesf77-ship-it/tg)** | Telegram-side tooling: automation, integrations, server-side logic. | `Python` |
-| `05` | **[aktibnostbot](https://github.com/izesf77-ship-it/aktibnostbot)** | Activity bot — tracking, aggregation, scheduled reporting. | `Python` |
+---
+
+## 01 · ABOUT
+
+I’m Kirill, an independent developer and entrepreneur. I like taking a product from the first rough idea through architecture, interface, code, and release.
+
+My current work spans native iOS development, programming language design, and digital products. I care about clear interfaces, thoughtful details, and software people can actually use.
+
+> Imagine boldly. Build carefully. Ship the thing.
 
 ---
 
-## 04 · TELEMETRY
+## 02 · CURRENT PROJECTS
+
+| PROJECT | WHAT IT IS | STATUS |
+|:--|:--|:--|
+| **[NOVA](https://github.com/izesf77-ship-it/NOVAORIG)** | A programming language project exploring its own syntax, type system, compiler, and developer tooling. | In development |
+| **[VOLNA](https://github.com/izesf77-ship-it/VOLNA)** | A Russian-language iOS music app with radio, playback, lyrics, and a multi-source catalog. | In development |
+| **[LUNÉ](https://github.com/izesf77-ship-it/LUNE)** | An offline-first iOS cycle and wellness tracker, designed around privacy and local data. | In development |
+| **[visualgram](https://github.com/izesf77-ship-it/visualgram)** | A visual product built around native interface design and motion. | Exploring |
+| **[Telegram tools](https://github.com/izesf77-ship-it/tg)** | Bots, integrations, and small tools for Telegram. | Ongoing |
+
+---
+
+## 03 · TOOLBOX
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=izesf77-ship-it&show_icons=true&include_all_commits=true&count_private=true&hide=issues&hide_border=true&border_radius=0&bg_color=0A0B0D&title_color=C6A667&text_color=9AA4AE&icon_color=C6A667&ring_color=C6A667&rank_icon=percentile&custom_title=TELEMETRY&card_width=420" alt="GitHub telemetry" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=izesf77-ship-it&layout=compact&langs_count=6&hide=html,css,scss,shell&hide_border=true&border_radius=0&bg_color=0A0B0D&title_color=C6A667&text_color=9AA4AE&card_width=420&custom_title=LANGUAGES" alt="Language distribution" />
-</div>
-
-<div align="center">
-  <img height="180" src="https://streak-stats.demolab.com?user=izesf77-ship-it&hide_border=true&border_radius=0&background=0A0B0D&stroke=1F2328&ring=C6A667&fire=C6A667&currStreakNum=EDEAE4&currStreakLabel=C6A667&sideNums=EDEAE4&sideLabels=7D8B99&dates=5C646D&disable_animations=true" alt="Contribution streak" />
+  <img src="https://img.shields.io/badge/Swift-111827?style=for-the-badge&logo=swift&logoColor=F28B54" alt="Swift" />
+  <img src="https://img.shields.io/badge/SwiftUI-111827?style=for-the-badge&logo=apple&logoColor=62D9FF" alt="SwiftUI" />
+  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=62D9FF" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=A6FFCB" alt="Python" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-111827?style=for-the-badge&logo=githubactions&logoColor=8B7CFF" alt="GitHub Actions" />
 </div>
 
 ---
 
-## 05 · CONTACT
+## 04 · GITHUB ACTIVITY
 
-Collaboration, architecture, language design — pick a channel.
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=izesf77-ship-it&show_icons=true&include_all_commits=true&count_private=true&hide=issues&hide_border=true&border_radius=12&bg_color=0B0D18&title_color=9B8BFF&text_color=B8C3DC&icon_color=62D9FF&ring_color=8B7CFF&rank_icon=percentile&custom_title=BUILDING%20IN%20PUBLIC&card_width=420" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=izesf77-ship-it&layout=compact&langs_count=6&hide=html,css,scss,shell&hide_border=true&border_radius=12&bg_color=0B0D18&title_color=9B8BFF&text_color=B8C3DC&card_width=420&custom_title=LANGUAGE%20MIX" alt="Most used languages" />
+</div>
 
-<a href="https://t.me/YOUR_TELEGRAM"><img src="https://img.shields.io/badge/Telegram-0A0B0D?style=flat-square&logo=telegram&logoColor=C6A667" alt="Telegram" /></a>
-<a href="mailto:YOUR@EMAIL"><img src="https://img.shields.io/badge/Email-0A0B0D?style=flat-square&logo=protonmail&logoColor=C6A667" alt="Email" /></a>
-<a href="https://github.com/izesf77-ship-it?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0A0B0D?style=flat-square&logo=github&logoColor=C6A667" alt="Repositories" /></a>
+<div align="center">
+  <img height="180" src="https://streak-stats.demolab.com?user=izesf77-ship-it&hide_border=true&border_radius=12&background=0B0D18&stroke=252A40&ring=8B7CFF&fire=62D9FF&currStreakNum=F4F6FF&currStreakLabel=9B8BFF&sideNums=F4F6FF&sideLabels=8995B2&dates=68738F" alt="GitHub contribution streak" />
+</div>
 
-<br/><br/>
+---
+
+## 05 · FIND ME
+
+<div align="center">
+  <a href="https://github.com/izesf77-ship-it?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_MY_WORK-111827?style=for-the-badge&logo=github&logoColor=F4F6FF" alt="Explore my repositories" /></a>
+  &nbsp;
+  <a href="https://t.me/izesf77"><img src="https://img.shields.io/badge/TELEGRAM-111827?style=for-the-badge&logo=telegram&logoColor=62D9FF" alt="Telegram" /></a>
+</div>
+
+<br/>
 
 <div align="center">
   <img src="assets/rule.svg" width="100%" alt="" />
   <br/><br/>
-  <sub>THE HANDLE SAYS SHIP-IT — I TAKE IT LITERALLY.</sub>
+  <sub>IDEAS IN MOTION. PRODUCTS IN THE WORLD.</sub>
 </div>
